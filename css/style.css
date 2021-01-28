@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.phone{
+	width: 350px;
+	height: 650px;
+	border: 7px solid #A300FD;
+	border-radius: 40px;ddqd
+}
