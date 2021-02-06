@@ -11,11 +11,176 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Comfortaa', cursive;
 }
 
 .phone{
 	width: 350px;
 	height: 650px;
 	border: 7px solid #A300FD;
-	border-radius: 40px;ddqd
+	border-radius: 40px;
+	background: #A300FD;
+	overflow: hidden;
+}
+
+.head{
+	display: flex;
+	justify-content: space-between;
+	width: 325px;
+	padding: 0 30px;
+	margin-left: 5px;
+	background: #fff;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+}
+
+.time{
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.images{
+	display: flex;
+}
+
+.wifi{
+	margin: 0 5px;
+}
+
+.account{
+	display: flex;
+	background: #A300FD;
+	padding: 10px 0;
+}
+
+.calls{
+	display: flex;
+	margin-left: auto;
+	padding-right: 15px;
+}
+
+.phoneCall{
+	margin-right: 15px;
+}
+
+.arrowBack{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.man{
+	margin-right: 10px;
+}
+
+.accountText{
+	color: #fff;
+}
+
+.accountTitle{
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.accountSubtext{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.chat{
+	background: #fff;
+	height: 500px;
+	overflow-y: scroll;
+	border-radius: 50px 50px 0 0 !important;
+	width: 340px;
+	padding: 30px 20px;	
+}
+
+.resive{
+	background-color: #A300FD;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 20px;
+	border-bottom-left-radius: 0;
+}
+
+.sent{
+	display: flex;
+	justify-content: flex-end;
+	width: 200px;
+	margin-left: auto;
+	text-align: left;
+}
+
+p{
+	overflow-y: auto;
+	margin: 7px 0;
+}
+
+data{
+	display: block;
+	font-size: 10px;
+	font-weight: bold;
+	color: grey;
+}
+
+.textWrapper{
+	overflow-y: auto;
+}
+
+.sent{
+	background: #E9E6E7;
+	padding: 10px;
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+}
+
+.seen{
+	text-align: right;
+}
+
+.recive{
+	width: 30px;
+	background-color: transparent;
+	border: none;
+}
+
+.send{
+	width: 30px;
+	background-color: transparent;
+	border: none;
+}
+
+.submitSvg{
+	margin-left: -5px;
+	transform: translateY(5px);
+}
+
+.submitSvG{
+	margin-left: 15px;
+	transform: translateY(7px);
+}
+
+.form{
+	background: #fff;
+	padding-bottom: 10px;
+}
+
+.formInput{
+	border: none;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: #E9E6E7;
+	position: relative;
+	outline: none;
+	width: 200px;
+	margin-left: 25px;
+}
+
+.smile{
+	transform: translateY(5px);
+}
+
+.gallery{
+	position: absolute;
+	bottom: 33px;
 }
